@@ -1,0 +1,7 @@
+The purpose of this project is to design several neural networks in Matlab. The main part of this assignment is to design and implement a feed-forward neural network that can be used to recognize hand-written digits.
+
+I defined my Neural Network to have 5 layers. The first layer consists of 250 nodes, and the following layers have 128, 64, 32, and 10 nodes, respectively. My Neural Network uses tansig as a threshold on all 5 layers. My neural network was able to obtain 89.1% accuracy with the entire feature vector set. 
+
+I modified the feature vector by taking the average of adjacent features and using this averaged set as my new feature vector when training and testing the neural network. I was able to obtain 90.2% accuracy using this approach. 
+
+David House
